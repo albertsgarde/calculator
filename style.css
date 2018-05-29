@@ -37,8 +37,29 @@ html, body {
   border-radius: 12px;
   border: 6px;
   border-style: solid;
+  display: flex;
+  align-items: center; /* align vertical */
+  padding: 0rem 1rem;
+}
+
+#display text {
+  font-size: 3rem;
+  display: inline-block;
+  flex: 1;
+  text-align: right;
 }
 
 #buttons {
   flex: 1;
+  display: grid;
+  grid-template-rows: repeat(4, 25%);
+  grid-template-columns: repeat(4, 25%);
+}
+
+#buttons button {
+  font-size: 5rem;
+}
+
+#buttons #multiplication {
+  font-size: 3.5rem;
 }
