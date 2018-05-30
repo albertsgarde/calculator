@@ -9,25 +9,32 @@
     <div id="viewport">
       <div id="calculator">
         <div id="display">
-          <text>test</text>
+          <div id="input">
+            <text></text>
+          </div>
+          <div id="result">
+            <text></text>
+          </div>
         </div>
         <div id="buttons">
-          <button input="1" class="numberButton">1</button>
-          <button input="2" class="numberButton">2</button>
-          <button input="3" class="numberButton">3</button>
-          <button input="/" class="operatorButton">&#x00F7</button>
-          <button input="4" class="numberButton">4</button>
-          <button input="5" class="numberButton">5</button>
-          <button input="6" class="numberButton">6</button>
-          <button input="*" class="operatorButton" id="multiplication">&#x2716</button>
-          <button input="7" class="numberButton">7</button>
-          <button input="8" class="numberButton">8</button>
-          <button input="9" class="numberButton">9</button>
-          <button input="-" class="operatorButton">-</button>
-          <button input="0" class="numberButton">0</button>
-          <button input="." class="numberButton">.</button>
-          <button input="+" class="operatorButton">+</button>
-          <button input="=" class="operatorButton">=</button>
+          <button data-input="clr" id="clearButton">Clr</button>
+          <button data-input="del" id="deleteButton">Del</button>
+          <button data-input="1" class="numberButton">1</button>
+          <button data-input="2" class="numberButton">2</button>
+          <button data-input="3" class="numberButton">3</button>
+          <button data-input="/" class="operatorButton">&#x00F7</button>
+          <button data-input="4" class="numberButton">4</button>
+          <button data-input="5" class="numberButton">5</button>
+          <button data-input="6" class="numberButton">6</button>
+          <button data-input="*" class="operatorButton" id="multiplication">&#x2716</button>
+          <button data-input="7" class="numberButton">7</button>
+          <button data-input="8" class="numberButton">8</button>
+          <button data-input="9" class="numberButton">9</button>
+          <button data-input="-" class="operatorButton">-</button>
+          <button data-input="0" class="numberButton">0</button>
+          <button data-input="." id="decimalButton">.</button>
+          <button data-input="+" class="operatorButton">+</button>
+          <button data-input="=" id="equalsButton">=</button>
         </div>
       </div>
     </div>
